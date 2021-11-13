@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.na{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+
+@mixin display {
+    display: flex;
+    // flex-direction: row;
+    // justify-content: space-between;
+}
+
+.navb{
+    width: 100%;
+    @include display;
+}
+
+.na-info{
+    @include display;
+}
+
+.card{
+    border: none !important;
+}
+
